@@ -1,0 +1,145 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-color:aliceblue;
+}
+.App {
+  text-align: center;
+  border-style: hidden;
+  width: 70%;
+  margin-left: 15%;
+  /* position: fixed; */
+}
+.weather-div{
+  border-style: outset;
+  width: 50%;
+  margin-left: 24%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4eYRYu2tlCyO4cBjq_fNh1-OooxPpihUVkg&usqp=CAU");
+  /* position: fixed; */
+}
+.search-weather{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  /* position: fixed; */
+}
+.heading{
+  font-weight: bolder;
+  /* position: fixed; */
+}
+.type{
+  margin-top: 3%;
+  border-style: solid;
+  border-color: black;
+  /* position: fixed; */
+}
+.weather-update{
+  border-style: inset;
+  margin-top: 2%;
+  background: url("https://img.freepik.com/free-vector/umbrella-concept-illustration_114360-5606.jpg?size=338&ext=jpg&ga=GA1.2.940910899.1663940128");
+  /* position: fixed; */
+}
+.error{
+  border-style: outset;
+  margin-top: 5%;
+  /* position: fixed; */
+}
+.Weather-update,  p , li{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2%;
+  /* position: fixed; */
+}
+.Weather-update , ul{
+  margin-top: 4%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  /* position: fixed; */
+}
+.Weather-update , li{
+  flex-basis: 50%;
+  width: 20%;
+  list-style: none;
+  /* position: fixed; */
+}
+.degree{
+  font-weight: lighter;
+  font-size: 2rem;
+  /* position: fixed; */
+}
+.humidity , .wind{
+  width: 5%;
+  /* position: fixed; */
+}
+.pressure , .timezone{
+  width: 7%;
+  /* position: fixed; */
+}
+.date{
+  font-weight: bold;
+  /* position: fixed; */
+}
+.visibility{
+  width: 6%;
+  /* position: fixed; */
+}
+@media screen and (max-width: 600px) {
+ .type{
+  width: auto;
+ }
+ .App{
+  width: auto;
+  margin-right: 10%;
+ }
+ body{
+  width: auto;
+
+ }
+ .heading{
+  width: auto;
+ }
+ .weather-div{
+  width: auto;
+  margin-right: 15%;
+ }
+ .Weather-update{
+  width: auto;
+ }
+ *{
+  font-size: 0.70rem;
+ }
+}
+/* 
+@media screen and (max-width: 900px) {
+  .type{
+   width: auto;
+  }
+  .App{
+   width: auto;
+   margin-right: 10%;
+  }
+  body{
+   width: auto;
+ 
+  }
+  .heading{
+   width: auto;
+  }
+  .weather-div{
+   width: auto;
+   margin-right: 15%;
+  }
+  .Weather-update{
+   width: auto;
+  }
+  *{
+   font-size: 0.70rem;
+  }
+ } */
